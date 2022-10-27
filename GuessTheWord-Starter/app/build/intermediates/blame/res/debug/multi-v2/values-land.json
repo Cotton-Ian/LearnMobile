@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\IanCo\\Desktop\\Projet_cours\\MOBG5\\LearnMobile\\GuessTheWord-Starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\IanCo\\.gradle\\caches\\transforms-2\\files-2.1\\6bdba072347416a6f63b294482245291\\appcompat-1.2.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\IanCo\\Desktop\\Projet_cours\\HelloWorld\\caches\\transforms-2\\files-2.1\\6bdba072347416a6f63b294482245291\\appcompat-1.2.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\IanCo\\.gradle\\caches\\transforms-2\\files-2.1\\6ca2797be72f395eafffa5900fc097dd\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\IanCo\\Desktop\\Projet_cours\\HelloWorld\\caches\\transforms-2\\files-2.1\\6ca2797be72f395eafffa5900fc097dd\\material-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
