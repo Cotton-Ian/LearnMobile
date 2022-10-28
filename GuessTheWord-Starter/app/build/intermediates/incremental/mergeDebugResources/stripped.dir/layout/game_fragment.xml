@@ -18,6 +18,12 @@
                                                        
                                                    
 
+    
+                 
+                                
+                                                                                
+           
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/game_layout"
         android:layout_width="match_parent"
@@ -43,6 +49,7 @@
 
         <TextView
             android:id="@+id/word_text"
+            android:tag="binding_1"                                   
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:animateLayoutChanges="true"
@@ -61,6 +68,7 @@
 
         <TextView
             android:id="@+id/timer_text"
+            android:tag="binding_2"                          
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -77,6 +85,7 @@
 
         <TextView
             android:id="@+id/score_text"
+            android:tag="binding_3"                                    
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -92,6 +101,7 @@
 
         <Button
             android:id="@+id/skip_button"
+            android:tag="binding_4"                          
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -111,6 +121,7 @@
 
         <Button
             android:id="@+id/correct_button"
+            android:tag="binding_5"                             
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -124,6 +135,7 @@
 
         <Button
             android:id="@+id/end_game_button"
+            android:tag="binding_6"                                
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"

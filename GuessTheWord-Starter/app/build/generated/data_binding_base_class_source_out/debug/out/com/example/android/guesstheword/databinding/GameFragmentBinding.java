@@ -10,9 +10,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
+import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.example.android.guesstheword.R;
+import com.example.android.guesstheword.screens.game.GameViewModel;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -44,6 +46,9 @@ public abstract class GameFragmentBinding extends ViewDataBinding {
   @NonNull
   public final TextView wordText;
 
+  @Bindable
+  protected GameViewModel mGameViewModel;
+
   protected GameFragmentBinding(Object _bindingComponent, View _root, int _localFieldCount,
       Button correctButton, Button endGameButton, ConstraintLayout gameLayout, Guideline guideline,
       TextView scoreText, Button skipButton, TextView timerText, TextView wordIsText,
@@ -58,6 +63,13 @@ public abstract class GameFragmentBinding extends ViewDataBinding {
     this.timerText = timerText;
     this.wordIsText = wordIsText;
     this.wordText = wordText;
+  }
+
+  public abstract void setGameViewModel(@Nullable GameViewModel gameViewModel);
+
+  @Nullable
+  public GameViewModel getGameViewModel() {
+    return mGameViewModel;
   }
 
   @NonNull
